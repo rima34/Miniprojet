@@ -1,0 +1,9 @@
+{
+    "name": "fourat/firebase",
+    "type": "project",
+    "require": {
+        "kreait/firebase-php": "^5.19",
+        "php":">=7.3.5"
+
+    }
+}

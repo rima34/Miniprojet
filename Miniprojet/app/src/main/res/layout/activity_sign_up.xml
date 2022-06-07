@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="5dp"
+        android:hint="Nom"
+        android:inputType="text"
+        />
+
+
+    <EditText
+        android:id="@+id/prénom"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:hint="Prénom"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/cmdp"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:hint="Confirme mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="60dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="Sign Up"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
+
